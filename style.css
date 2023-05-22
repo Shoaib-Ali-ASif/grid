@@ -1,0 +1,57 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.bg-pink {
+  background-color: pink;
+}
+.bg-red {
+  background-color: lightgoldenrodyellow;
+}
+.bg-light {
+  background-color: lightgreen;
+}
+.bg-grey {
+  background-color: grey;
+}
+.bg-yellow {
+  background-color: yellow;
+}
+.bg-cyan {
+  background-color: cyan;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.second-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin: 40px 0;
+}
+
+.third-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.item {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+}
+.parent{
+    background-color: black;
+}
